@@ -352,4 +352,9 @@ img {
   #tab-2-content .tab-2-content-bottom {
     grid-template-columns: 1fr;
   }
+
+  .showcase::after {
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 80 80px 250px #000000;
+  }
 }
