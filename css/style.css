@@ -175,6 +175,17 @@ img {
   color: #fff;
 }
 
+/* Hide content initially */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
 /* Carousel items */
 #tab-1-content .tab-1-content-inner{
   display: grid;
